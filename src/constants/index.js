@@ -15,14 +15,18 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  ses,
+  amadeus,
+  payoda,
+  theorem,
   carrent,
   jobit,
   tripguide,
   threejs,
+  globallogic,
+  nextjs,
+  graphql,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -61,6 +65,22 @@ const services = [
 
 const technologies = [
   {
+    name: "Next",
+    icon: nextjs,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -76,10 +96,7 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -93,20 +110,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,55 +121,75 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Senior Software Engineer",
+    company_name: "SES Satellites",
+    icon: ses,
+    iconBg: "#1D1836",
+    date: "September 2023 - Present",
     points: [
+      "Working for a popular German TV application, HD+, which offers over 80 HD channels and a variety of features such as pause live TV, restart, and access to media libraries.",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Lead Software Engineer",
+    company_name: "GlobalLogic",
+    icon: globallogic,
+    iconBg: "#1D1836",
+    date: "March 2020 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led a cross-functional team through the end-to-end design process, resulting in 20% faster project delivery.",
+      "Organized monthly team-building events, fostering a stronger sense of camaraderie among team members.",
+      "Mentored junior developers, resulting in 2 successful internal promotions within the team.",
+      "Reduced page load time by 20% through performance optimization techniques, including image compression and lazy loading.",
+      "Implemented accessible features (such as ARIA roles) to ensure compliance with WCAG guidelines and improve usability for all users.",
+      "Proficient in React.js: Developed reusable components, managed state using hooks, and optimized rendering performance.",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company_name: "Amadeus",
+    icon: amadeus,
+    iconBg: "#1D1836",
+    date: "July 2017 - Febuary 2020",
+    points: [
+      "Improved design quality by implementing a rigorous user testing framework, leading to a 30% reduction in usability issues.",
+      "Collaborated with stakeholders to align design vision with business goals, resulting in a 90% satisfaction rate.",
+      "Reduced dashboard loading time to under 300 ms by implementing data sharding techniques and optimizing API data retrieval. This leads to enhanced user experience, resulting in improved productivity and satisfaction.",
+      "Angular Proficiency: Developed interactive web applications, adhering to best practices such as lazy loading, reactive programming, and Angular Material components.",
+      "Wrote comprehensive unit tests using Jasmine & Karma, achieving above 95% test coverage for critical components. Conducted unit and end-to-end testing, resulting in a 98% bug-free launch rate.",
+      "Utilized GIT for versioning, streamlining collaboration, and saving 4 hours daily in manual communication.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Payoda",
+    icon: payoda,
+    iconBg: "#1D1836",
+    date: "December 2015 - July 2017",
+    points: [
+      "Developed a robust network monitoring tool for ARISTA using TypeScript and Angular.",
+      "Empowered users to check network status, monitor switch and router devices, and perform diagnostics efficiently.",
+      "Added new features and bug fixes to front-end applications.",
+      "Collaborated with back-end developers to build RESTful APIs.",
+      "Conducted unit testing using Jasmine & Karma.",
+      "Ensured code quality and maintained efficient build processes with Grunt.",
+      "Reduced average bug resolution time by 20%, achieved 95% code coverage in unit tests and decreased build time by 30% through Grunt automation.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Theorem",
+    icon: theorem,
+    iconBg: "#1D1836",
+    date: "September 2013 - December 2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a testing tool that tests web pages before QA. Reduced standard and repeated guideline bugs by over 99%, ensuring high-quality deliverables.",
+      "Working under the SalesForce. Translated mock-ups into responsive web pages using HTML, CSS, jQuery, Media Query.",
+      "Created dynamic Landing Pages and Micro Pages using Angular JS.",
+      "Efficiently handled daily work distribution, taking ownership of deliverables. Improved workflow efficiency, ensuring timely project completion.",
     ],
   },
 ];
@@ -172,7 +197,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Manas proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +205,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Manas does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,27 +213,22 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Manas optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Armcron Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "AIWave",
+    description: "Mordern Rich UI & UX showcase",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
@@ -219,9 +239,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Figma Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables multi users to work on a sketch together",
     tags: [
       {
         name: "react",
